@@ -8,12 +8,12 @@
   },
   "license": "ISC",
   "author": "",
-  "main": "./src/mod.ts",
+  "main": "./mod.ts",
   "exports": {
     ".": {
-      "types": "./src/mod.ts",
-      "import": "./src/mod.ts",
-      "default": "./src/mod.ts"
+      "types": "./mod.ts",
+      "import": "./mod.ts",
+      "default": "./mod.ts"
     },
     "./package.json": "./package.json"
   },
