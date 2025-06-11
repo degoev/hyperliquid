@@ -1,0 +1,22 @@
+{
+  "name": "@degoev/hyperliquid",
+  "version": "1.0.0",
+  "homepage": "https://github.com/degoev/hyperliquid#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/degoev/hyperliquid.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "./src/mod.ts",
+  "exports": {
+    ".": {
+      "types": "./src/types/mod.ts",
+      "import": "./src/mod.ts",
+      "default": "./src/mod.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {}
+}
