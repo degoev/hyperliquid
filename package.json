@@ -11,7 +11,7 @@
   "main": "./src/mod.ts",
   "exports": {
     ".": {
-      "types": "./src/types/mod.ts",
+      "types": "./src/mod.ts",
       "import": "./src/mod.ts",
       "default": "./src/mod.ts"
     },
